@@ -1,0 +1,104 @@
+{
+  "companyName": "楔子科技（杭州）有限公司",
+  "shortName": "楔子科技",
+  "summary": "目标企业公开信息极少，疑似小型软件/技术服务公司，尚未建立显著网络曝光。",
+  "industry": "软件和信息技术服务业",
+  "subIndustry": "软件开发/IT服务",
+  "scale": "未知（推测为小微企业，1-49人）",
+  "mainBusiness": "软件开发、技术服务（基于公司名称及行业推断）",
+  "products": [],
+  "targetCustomers": [],
+  "businessModel": "未知",
+  "rating": "",
+  "tags": ["杭州", "软件", "存疑"],
+  "website": null,
+  "slogan": null,
+  "isListed": false,
+  "stockCode": null,
+  "revenueScale": null,
+  "registration": {
+    "registeredName": null,
+    "registeredCapital": null,
+    "paidCapital": null,
+    "establishedDate": null,
+    "legalRepresentative": null,
+    "businessStatus": null,
+    "shareholders": [],
+    "branchCount": null,
+    "interpretation": "全网搜索未检索到任何工商登记信息，该公司可能未完成注册、信息未公开、使用品牌名而非注册名，或规模极小未被主流数据库收录。",
+    "organizationType": "未知",
+    "keyFindings": [
+      "全网搜索无任何直接匹配结果",
+      "相似名称均为不同实体，与楔子科技无关",
+      "公司可能尚在筹备阶段，或使用其他注册名运营"
+    ]
+  },
+  "organization": {
+    "type": "未知",
+    "decisionChain": "无法判断",
+    "keyPersons": [],
+    "salesStrategy": "建议通过电话陌拜、企名片等工具查询工商信息，确认公司实际注册名称后再制定进入策略"
+  },
+  "timing": {
+    "phase": "接触阶段",
+    "analysisBasis": ["网络公开信息为零，无法进行时机分析"],
+    "entryStrategy": "建议通过电话陌拜、企名片等工具查询工商信息，确认公司实际注册名称后再制定进入策略",
+    "urgency": "无法评估"
+  },
+  "hiring": {
+    "keySignals": []
+  },
+  "competition": {
+    "industryRank": null,
+    "marketShare": null,
+    "mainCompetitors": [],
+    "knownClients": []
+  },
+  "riskAndPolicy": {
+    "legal": {
+      "lawsuitCount": null,
+      "lawsuitTypes": [],
+      "majorLawsuits": [],
+      "administrativePenalties": [],
+      "executedPerson": false,
+      "dishonestPerson": false,
+      "businessAnomalies": [],
+      "equityFreeze": false,
+      "equityPledge": false
+    },
+    "policy": {
+      "isSpecializedSME": false,
+      "smeLevel": null,
+      "isHighTech": false,
+      "isGazelle": false,
+      "isUnicorn": false,
+      "digitalTransformation": { "hit": false, "details": null },
+      "esgGreen": { "hit": false, "details": null },
+      "xinchuang": { "hit": false, "details": null }
+    }
+  },
+  "painPoints": [
+    {
+      "area": "无法识别",
+      "description": "因无企业信息，无法进行痛点分析，需先通过当面拜访或工商渠道确认企业实际业务状态",
+      "severity": "无法评估"
+    }
+  ],
+  "opportunities": [
+    {
+      "area": "待确认",
+      "description": "需先采集企业基本信息（工商、产品、规模），再评估数字化需求匹配度",
+      "likelihood": "未知"
+    }
+  ],
+  "analysisPath": "C",
+  "confidence": 10,
+  "metadata": {
+    "createdAt": "2026-04-09T02:00:00Z",
+    "updatedAt": "2026-04-09T02:00:00Z",
+    "createdBy": "AI",
+    "version": "1.0",
+    "confidence": 10,
+    "sources": []
+  }
+}
