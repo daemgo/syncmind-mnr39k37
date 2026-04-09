@@ -15,10 +15,10 @@
       "overallAssessment": {
         "customerIntent": "强烈",
         "projectUrgency": "中等",
-        "budgetSituation": "未知",
+        "budgetSituation": "20万",
         "competitionStatus": "不明确",
         "winProbability": "中等",
-        "keyObstacles": ["预算尚未明确", "定制开发范围待确认", "决策人是否参与待验证"],
+        "keyObstacles": ["预算较紧张（20w），需控制交付成本", "定制开发范围待确认", "决策人是否参与待验证"],
         "confidenceLevel": "中等"
       },
       "keyPersons": [{
@@ -239,9 +239,9 @@
       "outOfScope": ["财务核算", "HR管理", "客户关系管理", "代码管理"],
       "futureScope": ["自动化工作流", "AI辅助排程", "客户交付门户"],
       "phases": [
-        { "phase": "一期", "scope": "核心任务管理+项目看板", "timeline": "待确认" },
-        { "phase": "二期", "scope": "资源管理+工时+报表", "timeline": "待确认" },
-        { "phase": "三期", "scope": "集成+移动端+自动化", "timeline": "待确认" }
+        { "phase": "一期", "scope": "核心任务管理+项目看板", "timeline": "2026-06 ~ 2026-09" },
+        { "phase": "二期", "scope": "资源管理+工时+报表", "timeline": "2026-09 ~ 2026-11" },
+        { "phase": "三期", "scope": "集成+移动端+自动化", "timeline": "2026-11 ~ 2026-12" }
       ],
       "priorityMatrix": [
         { "quadrant": "重要且紧急", "items": ["多项目管理", "任务分解", "进度看板"] },
@@ -252,18 +252,18 @@
     },
     "constraints": {
       "budget": {
-        "total": "",
-        "flexibility": "未知"
+        "total": "20万",
+        "flexibility": "待确认"
       },
       "timeline": {
-        "expectedStart": "",
-        "expectedGoLive": ""
+        "expectedStart": "2026-06",
+        "expectedGoLive": "2026-12"
       }
     },
     "successCriteria": {},
     "risksAndAssumptions": {
       "risks": [
-        { "description": "客户预算有限（天使轮/0-20人），定制开发成本可能超出承受范围", "impact": "高", "mitigation": "优先评估标准化产品+轻度定制方案" },
+        { "description": "预算20w较紧张（天使轮/0-20人），6个月周期内完成定制开发需严格控制范围", "impact": "高", "mitigation": "优先评估标准化产品+轻度定制方案，严格定义一期范围" },
         { "description": "需求范围可能持续扩大（scope creep），小团队交付能力有限", "impact": "高", "mitigation": "严格定义一期范围，后续需求放入backlog" },
         { "description": "客户期望过高，认为定制系统能解决所有管理问题", "impact": "中", "mitigation": "早期明确能力边界，管理预期" },
         { "description": "决策人（创始人）未深度参与需求讨论，可能导致方向偏差", "impact": "中", "mitigation": "安排与创始人直接沟通" }
@@ -308,9 +308,9 @@
         "expectedDirection": "10万以下/10-30万/30万以上",
         "targetPerson": "创始人",
         "relatedNeedIds": [],
-        "status": "pending",
-        "answer": null,
-        "resolvedInVersion": null
+        "status": "resolved",
+        "answer": "20万",
+        "resolvedInVersion": "v0.1"
       },
       {
         "id": "PQ-003",
@@ -350,9 +350,9 @@
         "expectedDirection": "1-3个月内/半年内/不急",
         "targetPerson": "创始人",
         "relatedNeedIds": [],
-        "status": "pending",
-        "answer": null,
-        "resolvedInVersion": null
+        "status": "resolved",
+        "answer": "预期2026年6月启动，12月完成上线",
+        "resolvedInVersion": "v0.1"
       },
       {
         "id": "PQ-006",
@@ -400,7 +400,7 @@
     "completionRate": {
       "overall": 15,
       "byCategory": { "functional": 15, "technical": 10, "non-functional": 10 },
-      "blockers": ["多项目管理", "任务分解与分配", "可视化进度跟踪", "轻量级部署"]
+      "blockers": ["多项目管理", "任务分解与分配", "可视化进度跟踪", "轻量级部署", "预算范围控制"]
     }
   }
 }
