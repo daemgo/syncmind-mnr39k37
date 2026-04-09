@@ -1,62 +1,93 @@
 {
   "companyName": "楔子科技（杭州）有限公司",
   "shortName": "楔子科技",
-  "summary": "目标企业公开信息极少，疑似小型软件/技术服务公司，尚未建立显著网络曝光。",
-  "industry": "软件和信息技术服务业",
-  "subIndustry": "软件开发/IT服务",
-  "scale": "未知（推测为小微企业，1-49人）",
-  "mainBusiness": "软件开发、技术服务（基于公司名称及行业推断）",
-  "products": [],
-  "targetCustomers": [],
-  "businessModel": "未知",
-  "rating": "",
-  "tags": ["杭州", "软件", "存疑"],
-  "website": null,
-  "slogan": null,
+  "summary": "成立于2022年的杭州AI创业公司，以SyncMind（AI驱动的产品演示生成平台）为核心产品，此前深耕钉钉宜搭生态提供数字化解决方案。",
+  "industry": "软件与信息技术服务",
+  "subIndustry": "AI应用/企业数字化解决方案",
+  "scale": "0-20人",
+  "mainBusiness": "AI驱动的产品演示生成平台（SyncMind）及企业数字化解决方案",
+  "products": [
+    {
+      "name": "SyncMind",
+      "description": "AI驱动的产品演示自动生成平台，当前处于内测阶段"
+    },
+    {
+      "name": "钉钉宜搭行业解决方案",
+      "description": "面向制造业和教育行业的低代码数字化解决方案，包括数字化工厂、成绩分析管理系统等"
+    }
+  ],
+  "targetCustomers": ["制造企业", "教育机构", "需要数字化转型的中小企业"],
+  "businessModel": "SaaS产品+行业解决方案定制，从低代码ISV向AI原生SaaS平台转型",
+  "rating": "B",
+  "tags": ["AI创业", "SaaS", "产品演示", "钉钉生态", "低代码", "制造业数字化", "教育数字化", "天使轮", "数字化转型"],
+  "website": "https://xiezi.tech/",
+  "slogan": "AI-driven Product Demo Generation Platform",
   "isListed": false,
   "stockCode": null,
-  "revenueScale": null,
+  "revenueScale": "500万以下/年（0-20人规模，天使轮早期）",
   "registration": {
-    "registeredName": null,
-    "registeredCapital": null,
+    "registeredName": "楔子科技（杭州）有限公司",
+    "registeredCapital": "100万人民币",
     "paidCapital": null,
-    "establishedDate": null,
-    "legalRepresentative": null,
-    "businessStatus": null,
+    "establishedDate": "2022-07-22",
+    "legalRepresentative": "董瑞阳",
+    "businessStatus": "存续",
     "shareholders": [],
-    "branchCount": null,
-    "interpretation": "全网搜索未检索到任何工商登记信息，该公司可能未完成注册、信息未公开、使用品牌名而非注册名，或规模极小未被主流数据库收录。",
-    "organizationType": "未知",
+    "branchCount": 1,
+    "interpretation": "公司成立于2022年7月，注册资本100万元，实缴情况不详。有限责任公司（自然人投资或控股），经营状态正常。在长沙设有分支机构（2023年9月成立），显示业务有跨区域扩张意愿。规模极小（0-20人），属于典型早期创业公司。",
+    "organizationType": "有限责任公司（自然人投资或控股）",
     "keyFindings": [
-      "全网搜索无任何直接匹配结果",
-      "相似名称均为不同实体，与楔子科技无关",
-      "公司可能尚在筹备阶段，或使用其他注册名运营"
+      "注册资本100万人民币，实缴情况未见公开信息",
+      "2023年在长沙设立分支机构（楔子科技（长沙）有限公司，法定代表人杨帆），表明有扩张计划",
+      "天使轮融资，规模极小，资金可能有限",
+      "法定代表人董瑞阳，推测为创始人"
     ]
   },
   "organization": {
-    "type": "未知",
-    "decisionChain": "无法判断",
-    "keyPersons": [],
-    "salesStrategy": "建议通过电话陌拜、企名片等工具查询工商信息，确认公司实际注册名称后再制定进入策略"
+    "type": "技术驱动的早期创业团队",
+    "decisionChain": "扁平化结构，创始人董瑞阳（法定代表人）直接决策，团队0-20人，技术团队占比高，决策链条极短",
+    "keyPersons": [
+      {
+        "name": "董瑞阳",
+        "title": "法定代表人/创始人"
+      },
+      {
+        "name": "杨帆",
+        "title": "长沙子公司法定代表人/区域负责人"
+      }
+    ],
+    "salesStrategy": "当前处于产品内测获客阶段，通过公众号（syncmind1210）和社交媒体（抖音）进行推广；此前在钉钉生态内以服务制造业、教育行业积累客户；适合以产品合作、技术对接方式切入"
   },
   "timing": {
-    "phase": "接触阶段",
-    "analysisBasis": ["网络公开信息为零，无法进行时机分析"],
-    "entryStrategy": "建议通过电话陌拜、企名片等工具查询工商信息，确认公司实际注册名称后再制定进入策略",
-    "urgency": "无法评估"
+    "phase": "产品内测/早期获客",
+    "analysisBasis": [
+      "SyncMind产品标注为'内测中'，需通过邀请码体验",
+      "正在招聘AI Native开发者，核心团队仍在搭建中",
+      "天使轮，0-20人，处于创业早期",
+      "官网已上线但信息有限，品牌知名度较低",
+      "从钉钉ISV向AI SaaS转型期，存在资源和技术双重压力"
+    ],
+    "entryStrategy": "作为B2B销售/售前团队，当前阶段可定位为'数字化协作与效率工具'供应商，关注其AI产品开发中的项目管理、客户管理、团队协作等需求；公司处于转型关键期，对能加速产品商业化落地的合作方案接受度高",
+    "urgency": "中等——创业早期公司需求灵活但预算有限，决策快速但成交金额小"
   },
   "hiring": {
-    "keySignals": []
+    "keySignals": [
+      "正在招聘AI Native开发者，说明公司正在向AI原生方向转型",
+      "高级Node.js开发工程师（2026年）岗位，暗示技术栈以Node.js/JavaScript为主",
+      "杭州余杭区西溪/五常街道办公，靠近阿里巴巴总部，暗示与阿里/钉钉生态的关联",
+      "0-20人规模天使轮仍在招聘技术岗位，说明产品处于关键研发期",
+      "从钉钉宜搭ISV向AI SaaS平台转型，技术能力在升级"
+    ]
   },
   "competition": {
     "industryRank": null,
     "marketShare": null,
-    "mainCompetitors": [],
-    "knownClients": []
+    "mainCompetitors": ["阅流（Demo制作平台）", "Tome（AI演示工具）", "Gamma（AI演示工具）", "钉钉宜搭其他ISV服务商"],
+    "knownClients": ["杭州学军教育集团（成绩分析系统）"]
   },
   "riskAndPolicy": {
     "legal": {
-      "lawsuitCount": null,
+      "lawsuitCount": 0,
       "lawsuitTypes": [],
       "majorLawsuits": [],
       "administrativePenalties": [],
@@ -72,33 +103,82 @@
       "isHighTech": false,
       "isGazelle": false,
       "isUnicorn": false,
-      "digitalTransformation": { "hit": false, "details": null },
-      "esgGreen": { "hit": false, "details": null },
-      "xinchuang": { "hit": false, "details": null }
+      "digitalTransformation": {
+        "hit": true,
+        "details": "公司定位为中小企业数字化转型加速器，是钉钉宜搭平台ISV服务商，提供低代码数字化解决方案，服务客户包括杭州学军教育集团等。"
+      },
+      "esgGreen": {
+        "hit": false,
+        "details": null
+      },
+      "xinchuang": {
+        "hit": false,
+        "details": null
+      }
     }
   },
   "painPoints": [
     {
-      "area": "无法识别",
-      "description": "因无企业信息，无法进行痛点分析，需先通过当面拜访或工商渠道确认企业实际业务状态",
-      "severity": "无法评估"
+      "area": "项目管理",
+      "description": "多项目并行（SyncMind研发+过往ISV客户维护+长沙分支机构管理），团队极小但业务线多，项目管理和资源分配压力大",
+      "severity": "高"
+    },
+    {
+      "area": "客户管理",
+      "description": "从ISV定制服务向SaaS产品转型，客户获取从关系驱动转为产品驱动，需要建立新的客户成功体系",
+      "severity": "中"
+    },
+    {
+      "area": "知识管理",
+      "description": "团队极小（0-20人），经验集中在核心成员脑中，新人培养和知识传承困难，影响扩张速度",
+      "severity": "中"
+    },
+    {
+      "area": "交付管理",
+      "description": "过往ISV业务涉及制造业和教育行业定制交付，需求变更和交付质量管控在小型团队中尤为突出",
+      "severity": "中"
+    },
+    {
+      "area": "回款管理",
+      "description": "天使轮创业公司现金流紧张，定制项目回款周期管理直接影响生存，且SaaS转型期收入模式切换",
+      "severity": "高"
     }
   ],
   "opportunities": [
     {
-      "area": "待确认",
-      "description": "需先采集企业基本信息（工商、产品、规模），再评估数字化需求匹配度",
-      "likelihood": "未知"
+      "area": "项目管理平台",
+      "description": "团队小、多线并行是典型项目管理平台切入点，可提供轻量级项目协同+看板工具，与AI开发流程结合",
+      "likelihood": "高"
+    },
+    {
+      "area": "CRM/客户成功平台",
+      "description": "SaaS转型期急需建立客户获取、跟进、成功体系，SyncMind内测用户管理和转化需要CRM支撑",
+      "likelihood": "高"
+    },
+    {
+      "area": "知识库/AI协作工具",
+      "description": "公司自身是AI创业团队，对AI协作工具天然接受度高，知识沉淀和新人快速上手是刚需",
+      "likelihood": "高"
+    },
+    {
+      "area": "合同/应收管理",
+      "description": "创业公司现金流敏感，自动化的合同管理和收款跟踪能直接解决回款难痛点",
+      "likelihood": "中"
     }
   ],
-  "analysisPath": "C",
-  "confidence": 10,
+  "analysisPath": "B+",
+  "confidence": 72,
   "metadata": {
     "createdAt": "2026-04-09T02:00:00Z",
-    "updatedAt": "2026-04-09T02:00:00Z",
+    "updatedAt": "2026-04-09T06:00:00Z",
     "createdBy": "AI",
-    "version": "1.0",
-    "confidence": 10,
-    "sources": []
+    "version": "1.1",
+    "confidence": 72,
+    "sources": [
+      "BOSS直聘企业页",
+      "SyncMind官网 (xiezi.tech)",
+      "BOSS直聘招聘信息",
+      "百度百科/百度文库"
+    ]
   }
 }

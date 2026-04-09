@@ -1,0 +1,37 @@
+{
+  "source": "collect-risk",
+  "company_name": "楔子科技（杭州）有限公司",
+  "riskLevel": "低",
+  "riskSummary": "公司成立于2022年，未见公开诉讼、失信、行政处罚或经营异常记录，风险敞口较低。",
+  "policySummary": "暂无专精特新/高新技术等政策认证，但主营钉钉宜搭数字化解决方案，与数字化转型政策方向高度契合。",
+  "legal": {
+    "lawsuitCount": 0,
+    "lawsuitTypes": [],
+    "majorLawsuits": [],
+    "administrativePenalties": [],
+    "executedPerson": false,
+    "dishonestPerson": false,
+    "businessAnomalies": [],
+    "equityFreeze": false,
+    "equityPledge": false
+  },
+  "policy": {
+    "isSpecializedSME": false,
+    "smeLevel": null,
+    "isHighTech": false,
+    "isGazelle": false,
+    "isUnicorn": false,
+    "digitalTransformation": {
+      "hit": true,
+      "details": "公司定位为中小企业数字化转型加速器，是钉钉宜搭平台ISV服务商，提供低代码数字化解决方案，服务客户包括杭州学军教育集团等。"
+    },
+    "esgGreen": {
+      "hit": false,
+      "details": null
+    },
+    "xinchuang": {
+      "hit": false,
+      "details": null
+    }
+  }
+}
