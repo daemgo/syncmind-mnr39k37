@@ -1,0 +1,406 @@
+{
+  "currentVersion": "v0.1",
+  "status": "draft",
+  "versions": [{
+    "version": "v0.1",
+    "createdAt": "2026-04-09T08:00:00Z",
+    "trigger": "cold-start",
+    "inputSummary": "基于客户档案、拜访记录、行业痛点库推演",
+    "changeSummary": ["从档案推演12条需求", "无知识库匹配"]
+  }],
+  "current": {
+    "salesInput": {
+      "salesPerson": "",
+      "lastUpdated": "2026-04-09",
+      "overallAssessment": {
+        "customerIntent": "强烈",
+        "projectUrgency": "中等",
+        "budgetSituation": "未知",
+        "competitionStatus": "不明确",
+        "winProbability": "中等",
+        "keyObstacles": ["预算尚未明确", "定制开发范围待确认", "决策人是否参与待验证"],
+        "confidenceLevel": "中等"
+      },
+      "keyPersons": [{
+        "name": "董瑞阳",
+        "role": "创始人/法定代表人",
+        "attitude": "不明确",
+        "influence": "决策者"
+      }],
+      "realNeeds": {
+        "explicitNeeds": ["定制开发适合其业务的项目管理工具"],
+        "implicitNeeds": ["多项目并行管理", "资源分配优化", "团队协作效率提升", "项目进度可视化"],
+        "suspectedNeeds": ["与现有开发工具链集成", "客户交付项目管理"]
+      },
+      "decisionFactors": {
+        "primaryFactor": "",
+        "secondaryFactors": [],
+        "dealBreakers": []
+      },
+      "notes": "客户明确表达定制开发意向，但尚未深入讨论具体功能场景。",
+      "concerns": ["小团队是否能承受定制开发成本", "定制化 vs 标准化产品的平衡"],
+      "suggestions": ["尽快安排需求调研，了解具体痛点和场景"]
+    },
+    "sources": {
+      "meetings": [{ "date": "2026-04-08", "type": "拜访", "summary": "客户有项目管理软件定制开发需求" }],
+      "documents": [],
+      "communications": [],
+      "observations": []
+    },
+    "needs": [
+      {
+        "id": "REQ-001",
+        "category": "functional",
+        "title": "多项目管理",
+        "description": "支持同时管理多个项目（SyncMind研发、ISV客户交付、内部运营等），按项目维度隔离和查看数据。",
+        "priority": "must",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "档案显示多项目并行是核心痛点，行业痛点库印证", "raw": null },
+        "status": "active",
+        "module": "项目中心",
+        "relatedPainPoints": ["项目管理"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-002",
+        "category": "functional",
+        "title": "任务分解与分配",
+        "description": "支持WBS任务分解，任务指派到人，设置优先级、截止日期和状态流转。",
+        "priority": "must",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "0-20人团队，经验集中在个人脑中，需要结构化的任务管理", "raw": null },
+        "status": "active",
+        "module": "任务管理",
+        "relatedPainPoints": ["项目管理", "知识管理"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-003",
+        "category": "functional",
+        "title": "可视化进度跟踪",
+        "description": "提供看板、甘特图等视图，直观展示项目进度、任务完成情况和瓶颈。",
+        "priority": "must",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "进度不透明是科技行业典型痛点，小团队尤其需要一目了然的视图", "raw": null },
+        "status": "active",
+        "module": "项目看板",
+        "relatedPainPoints": ["项目管理"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-004",
+        "category": "functional",
+        "title": "资源管理与排程",
+        "description": "查看团队成员工作量分布，避免资源冲突和过度分配，合理排程。",
+        "priority": "should",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "团队极小但业务线多，资源分配压力大", "raw": null },
+        "status": "active",
+        "module": "资源管理",
+        "relatedPainPoints": ["项目管理"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-005",
+        "category": "functional",
+        "title": "协作与沟通",
+        "description": "支持任务评论、@提醒、文件共享，减少沟通成本，避免信息散落。",
+        "priority": "should",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "团队扁平化但跨项目协作需求存在，知识管理是痛点", "raw": null },
+        "status": "active",
+        "module": "协作",
+        "relatedPainPoints": ["知识管理"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-006",
+        "category": "functional",
+        "title": "里程碑与交付物管理",
+        "description": "定义项目里程碑，关联交付物，跟踪里程碑完成情况，支持客户交付场景。",
+        "priority": "should",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "过往ISV业务涉及定制交付，需求变更和交付质量管控突出", "raw": null },
+        "status": "active",
+        "module": "交付管理",
+        "relatedPainPoints": ["交付管理"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-007",
+        "category": "functional",
+        "title": "工时记录与统计",
+        "description": "记录各任务/项目实际耗时，用于成本核算和效率分析。",
+        "priority": "could",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "定制项目回款周期管理直接影响生存，工时是成本核算基础", "raw": null },
+        "status": "active",
+        "module": "工时管理",
+        "relatedPainPoints": ["回款管理"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-008",
+        "category": "functional",
+        "title": "报表与统计分析",
+        "description": "生成项目概况、团队效率、任务完成率等报表，支撑管理决策。",
+        "priority": "could",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "创始人直接决策，需要数据支撑管理判断", "raw": null },
+        "status": "active",
+        "module": "报表",
+        "relatedPainPoints": ["项目管理"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-009",
+        "category": "technical",
+        "title": "轻量级部署",
+        "description": "支持SaaS云部署或私有部署，适配0-20人团队规模，降低运维成本。",
+        "priority": "must",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "天使轮创业公司，团队极小，无专职运维人员", "raw": null },
+        "status": "active",
+        "module": "部署",
+        "relatedPainPoints": [],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-010",
+        "category": "technical",
+        "title": "与现有工具链集成",
+        "description": "支持与钉钉、代码仓库（Git）、文档工具等集成，融入现有工作流。",
+        "priority": "should",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "客户深耕钉钉宜搭生态，技术栈以Node.js/JS为主", "raw": null },
+        "status": "active",
+        "module": "集成",
+        "relatedPainPoints": [],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-011",
+        "category": "non-functional",
+        "title": "易上手、低学习成本",
+        "description": "界面简洁直观，团队成员能快速上手，不需要专门培训。",
+        "priority": "should",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "小团队时间宝贵，没有冗余人力学习复杂系统", "raw": null },
+        "status": "active",
+        "module": "体验",
+        "relatedPainPoints": ["知识管理"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-012",
+        "category": "non-functional",
+        "title": "移动端支持",
+        "description": "支持手机端查看和简单操作，适应外出、出差场景。",
+        "priority": "could",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "钉钉生态用户天然习惯移动端，创始人和区域负责人可能出差", "raw": null },
+        "status": "active",
+        "module": "移动端",
+        "relatedPainPoints": [],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      }
+    ],
+    "users": [
+      { "role": "项目经理", "description": "负责项目规划、任务分配、进度跟踪", "mainTasks": ["创建项目", "分解任务", "跟踪进度", "生成报表"] },
+      { "role": "团队成员（开发/设计/测试）", "description": "接收任务、汇报进度、协作沟通", "mainTasks": ["查看任务", "更新状态", "提交成果", "协作讨论"] },
+      { "role": "创始人/管理者", "description": "全局把控项目组合，做决策", "mainTasks": ["查看项目概览", "资源调配", "审批里程碑"] }
+    ],
+    "scope": {
+      "inScope": ["多项目管理", "任务管理", "进度跟踪", "协作沟通", "工时记录", "基础报表"],
+      "outOfScope": ["财务核算", "HR管理", "客户关系管理", "代码管理"],
+      "futureScope": ["自动化工作流", "AI辅助排程", "客户交付门户"],
+      "phases": [
+        { "phase": "一期", "scope": "核心任务管理+项目看板", "timeline": "待确认" },
+        { "phase": "二期", "scope": "资源管理+工时+报表", "timeline": "待确认" },
+        { "phase": "三期", "scope": "集成+移动端+自动化", "timeline": "待确认" }
+      ],
+      "priorityMatrix": [
+        { "quadrant": "重要且紧急", "items": ["多项目管理", "任务分解", "进度看板"] },
+        { "quadrant": "重要不紧急", "items": ["资源管理", "协作沟通", "交付物管理"] },
+        { "quadrant": "紧急不重要", "items": [] },
+        { "quadrant": "不紧急不重要", "items": ["移动端支持"] }
+      ]
+    },
+    "constraints": {
+      "budget": {
+        "total": "",
+        "flexibility": "未知"
+      },
+      "timeline": {
+        "expectedStart": "",
+        "expectedGoLive": ""
+      }
+    },
+    "successCriteria": {},
+    "risksAndAssumptions": {
+      "risks": [
+        { "description": "客户预算有限（天使轮/0-20人），定制开发成本可能超出承受范围", "impact": "高", "mitigation": "优先评估标准化产品+轻度定制方案" },
+        { "description": "需求范围可能持续扩大（scope creep），小团队交付能力有限", "impact": "高", "mitigation": "严格定义一期范围，后续需求放入backlog" },
+        { "description": "客户期望过高，认为定制系统能解决所有管理问题", "impact": "中", "mitigation": "早期明确能力边界，管理预期" },
+        { "description": "决策人（创始人）未深度参与需求讨论，可能导致方向偏差", "impact": "中", "mitigation": "安排与创始人直接沟通" }
+      ],
+      "assumptions": [
+        { "description": "客户需要的是完整的项目管理软件，而非轻量工具", "impact": "中" },
+        { "description": "客户愿意接受SaaS方案而非完全定制开发", "impact": "高" },
+        { "description": "技术栈偏好与钉钉/Node.js生态兼容的方案", "impact": "中" },
+        { "description": "团队成员均有基本IT素养，能快速上手新系统", "impact": "低" }
+      ],
+      "dependencies": []
+    },
+    "solutionDirection": {
+      "overallApproach": "建议以标准项目管理产品为基础，结合楔子科技业务特点做轻度定制，而非从零开发。可降低交付风险和成本。",
+      "recommendedApproach": null,
+      "technicalDirection": null,
+      "implementationStrategy": null,
+      "nextSteps": ["与创始人沟通确认核心诉求和预算", "梳理具体业务场景和工作流", "评估标准化方案 vs 定制开发成本"]
+    },
+    "pendingQuestions": [
+      {
+        "id": "PQ-001",
+        "category": "业务",
+        "priority": "必问",
+        "stage": "screening",
+        "question": "目前项目管理是怎么做的？最大的痛点是什么？",
+        "purpose": "了解现状，确认推演的痛点假设是否准确",
+        "expectedDirection": "Excel/口头/现有工具混乱",
+        "targetPerson": "创始人或项目经理",
+        "relatedNeedIds": ["REQ-001", "REQ-003"],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-002",
+        "category": "预算",
+        "priority": "必问",
+        "stage": "screening",
+        "question": "这个项目大概的预算范围是什么量级？",
+        "purpose": "判断定制开发是否可行，还是应该推荐标准化方案",
+        "expectedDirection": "10万以下/10-30万/30万以上",
+        "targetPerson": "创始人",
+        "relatedNeedIds": [],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-003",
+        "category": "业务",
+        "priority": "必问",
+        "stage": "deep-dive",
+        "question": "你们同时有几个项目在跑？每个项目大概多少人？",
+        "purpose": "确认多项目管理的实际规模和复杂度",
+        "expectedDirection": "3-5个项目，每项目2-5人",
+        "targetPerson": "创始人或项目经理",
+        "relatedNeedIds": ["REQ-001", "REQ-004"],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-004",
+        "category": "技术",
+        "priority": "必问",
+        "stage": "deep-dive",
+        "question": "需要跟哪些现有系统对接？比如钉钉、代码仓库这些？",
+        "purpose": "确认集成需求的广度和深度",
+        "expectedDirection": "至少需要钉钉集成",
+        "targetPerson": "技术负责人",
+        "relatedNeedIds": ["REQ-010"],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-005",
+        "category": "时间",
+        "priority": "必问",
+        "stage": "screening",
+        "question": "希望什么时候能用上？有没有明确的上线时间节点？",
+        "purpose": "判断项目紧迫性和排期",
+        "expectedDirection": "1-3个月内/半年内/不急",
+        "targetPerson": "创始人",
+        "relatedNeedIds": [],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-006",
+        "category": "业务",
+        "priority": "选问",
+        "stage": "deep-dive",
+        "question": "团队里谁来管项目？有专职的项目经理吗？",
+        "purpose": "确认用户角色和使用场景",
+        "expectedDirection": "创始人兼管或兼职项目经理",
+        "targetPerson": "创始人",
+        "relatedNeedIds": ["REQ-002"],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-007",
+        "category": "业务",
+        "priority": "选问",
+        "stage": "deep-dive",
+        "question": "之前用过类似的项目管理工具吗？有什么不满意的？",
+        "purpose": "了解竞品使用历史，避免重复踩坑",
+        "expectedDirection": "用过Teambition/飞书项目/Trello等",
+        "targetPerson": "技术负责人",
+        "relatedNeedIds": [],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-008",
+        "category": "业务",
+        "priority": "选问",
+        "stage": "deep-dive",
+        "question": "除了项目管理，交付给客户的项目需不需要在系统里单独管？",
+        "purpose": "判断是否需要客户交付管理模块",
+        "expectedDirection": "需要/不需要/看情况",
+        "targetPerson": "创始人或项目经理",
+        "relatedNeedIds": ["REQ-006"],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      }
+    ],
+    "completionRate": {
+      "overall": 15,
+      "byCategory": { "functional": 15, "technical": 10, "non-functional": 10 },
+      "blockers": ["多项目管理", "任务分解与分配", "可视化进度跟踪", "轻量级部署"]
+    }
+  }
+}

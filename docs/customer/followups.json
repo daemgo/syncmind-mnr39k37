@@ -1,0 +1,15 @@
+{
+  "records": [
+    {
+      "id": 1,
+      "date": "2026-04-08",
+      "type": "拜访",
+      "content": "拜访楔子科技，客户有项目管理软件需求，希望定制开发适合其业务的项目管理工具。",
+      "attendees": [],
+      "actions": [
+        { "action": "了解客户项目管理具体痛点和场景", "owner": "售前", "assignee": "", "deadline": null, "done": false, "completedAt": null },
+        { "action": "评估定制开发可行性及方案", "owner": "方案", "assignee": "", "deadline": null, "done": false, "completedAt": null }
+      ]
+    }
+  ]
+}
